@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NHHP</title>
+</head>
+<body>
+<button onclick="hoanDoiViTri()">Click Here</button>
+<script>
+    // function addToTail () {
+    //     let NNHP = ['hoang', 'anh', 'huan', 'thang', 'van'];
+    //     NNHP.push('trong');
+    //     for (let i = 0; i < NNHP.length; i++) {
+    //         document.write(NNHP[i] + '');
+    //         console.log(NNHP[i]);
+    //     }
+    // }
+    //
+    // function addToIndex(){
+    //     let index = 1;
+    //     let array = ['vi tri 0','vi tri 1', 'vi tri 2', 'vi tri 3'];
+    //
+    //     them phan tu vao vi tri index
+        // for (let i = array.length; i > index; i--){
+        //     array[i] = array[i-1];
+        // }
+        //
+        // doc du lieu mang in ra man hinh
+        // array[index] = 'chen them vao';
+        // for (let i = 0; i < array.length; i++){
+        //     document.write(array[i] + '  ');
+        // }}
+
+        function hoanDoiViTri(){
+            let array = ['vi tri 0','vi tri 1', 'vi tri 2', 'vi tri 3','vi tri 4'];
+
+                array[4] = array[1];
+                array[1] = array[2];
+                 array[2] = array[4];
+                for (let i = 0; i < array.length; i++) {
+                    document.write(array[i] + '  ');
+
+            }
+
+    }
+</script>
+</body>
+</html>
